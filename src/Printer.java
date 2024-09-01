@@ -6,4 +6,8 @@ public class Printer <T>{
         this.thingToPrint = thingToPrint;
     }
 
+    public  void  print(){
+        System.out.println(thingToPrint);
+    }
+
 }
