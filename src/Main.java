@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        Printer<Integer> printer = new Printer<>(23);
+        Printer<Cat> printer = new Printer<>(new Cat());
         printer.print();
 
-        Printer<Double> doublePrinter = new Printer<>(33.5);
+        Printer<Dog> doublePrinter = new Printer<>(new Dog);
         doublePrinter.print();
 
         ArrayList<Cat> cats = new ArrayList<Cat>();

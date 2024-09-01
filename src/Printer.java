@@ -1,4 +1,4 @@
-public class Printer <T>{
+public class Printer <T extends  Animal>{
 
     T thingToPrint;
 
